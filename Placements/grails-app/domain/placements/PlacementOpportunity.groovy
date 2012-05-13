@@ -10,5 +10,5 @@ static constraints = {
   String jobtitle
   String companyname
 
-  
+  static hasMany = [applications:Application]
 }

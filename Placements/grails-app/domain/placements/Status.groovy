@@ -9,5 +9,6 @@ static constraints = {
   String code
   String description
 
+static hasMany = [applications:Application]
     
 }

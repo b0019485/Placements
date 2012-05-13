@@ -10,5 +10,7 @@ class Student {
   String coursecode
   String notes
 
+  static hasMany = [applications:Application]
+
  
 }

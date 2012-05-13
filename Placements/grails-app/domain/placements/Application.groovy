@@ -6,5 +6,8 @@ class Application {
 
   Long timestamp
 
+  Student student
+  PlacementOpportunity placement
+  Status status
     
 }
