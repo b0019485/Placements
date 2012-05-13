@@ -1,9 +1,10 @@
 package placements
 
 class Application {
+ static constraints = {
+    }
 
   Long timestamp
 
-    static constraints = {
-    }
+    
 }
