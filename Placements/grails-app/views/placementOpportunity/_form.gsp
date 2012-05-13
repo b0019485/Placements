@@ -4,7 +4,7 @@
 
 <div class="fieldcontain ${hasErrors(bean: placementOpportunityInstance, field: 'companyname', 'error')} ">
 	<label for="companyname">
-		<g:message code="placementOpportunity.companyname.label" default="Companyname" />
+		<g:message code="placementOpportunity.companyname.label" default="Company name" />
 		
 	</label>
 	<g:textField name="companyname" value="${placementOpportunityInstance?.companyname}"/>
