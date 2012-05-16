@@ -1,4 +1,5 @@
 import placements.Student
+import placements.Status
 class BootStrap {
     
     def init = { servletContext ->
