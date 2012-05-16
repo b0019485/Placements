@@ -1,5 +1,6 @@
 import placements.Student
 import placements.Status
+import placements.PlacementOpportunity
 class BootStrap {
     
     def init = { servletContext ->
@@ -24,6 +25,15 @@ class BootStrap {
 	def joshstu = new Student(name:'Josh',coursecode:'G501',notes:'-').save();
 
 	def zebstu = new Student(name:'Zeb',coursecode:'G502',notes:'Misbehaved').save();
+
+
+    def programmingJob = new PlacementOpportunity(jobtitle:'VisualBasic',companyname:'Access Network Ltd').save();
+    
+    def technicianJob = new PlacementOpportunity(jobtitle:'Engineer',companyname:'Sheffield Hallam University').save();
+    
+    def superheroJob = new PlacementOpportunity(jobtitle:'Ian',companyname:'Paradise House Ltd').save();
+
+
 
     }
     def destroy = {

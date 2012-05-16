@@ -4,7 +4,7 @@ class Application {
  static constraints = {
     }
 
-  Long timestamp
+  Long timestamp = System.currentTimeMillis()
 
   Student student
   PlacementOpportunity placement

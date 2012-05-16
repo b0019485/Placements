@@ -24,11 +24,11 @@
 				<thead>
 					<tr>
 					
-						<g:sortableColumn property="placement" title="${message(code: 'application.placement.label', default: 'Placement')}" />
+						<th><g:message code="application.placement.label" default="Placement" /></th>
 					
-						<g:sortableColumn property="status" title="${message(code: 'application.status.label', default: 'Status')}" />
+						<th><g:message code="application.status.label" default="Status" /></th>
 					
-						<g:sortableColumn property="student" title="${message(code: 'application.student.label', default: 'Student')}" />
+						<th><g:message code="application.student.label" default="Student" /></th>
 					
 						<g:sortableColumn property="timestamp" title="${message(code: 'application.timestamp.label', default: 'Timestamp')}" />
 					
